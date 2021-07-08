@@ -1,0 +1,262 @@
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+#hero-section{
+    background-image: url(../Slike/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-position-x: center;
+    background-position-y: center;
+    
+    
+ 
+  
+}
+
+
+
+strong {
+    font-size: 25px;
+    background-color: rgb(41, 168, 126);
+    
+}
+@media (max-width:992px ){
+    strong {
+        font-size: 18px;
+    }
+    header span {
+        font-size: 38px !important;
+    }
+
+}
+
+header span {
+    font-size: 34px;
+    color: rgb(121, 121, 121);
+}
+#header-link {
+    font-size: 15px;
+    margin-left: 25px;
+    color: rgb(121, 121, 121);
+}
+#header-link:hover {
+    color: black;
+}
+
+#header-link:visited {
+    color: black;
+}
+#icon-menu {
+    width: 30px;
+    filter: opacity(0.6);
+    margin-right: 5px;
+    position: absolute;
+}
+
+.solid-header {
+    position: fixed;
+    background-color: silver;
+    z-index: 2;
+}
+
+
+
+#intro-section {
+  background-color: rgb(238, 235, 235);
+}
+
+#intro-section img{
+ width: 60px;
+}
+
+#intro-section span {
+   font-size: 12px;
+}
+#intro-section p {
+    color: rgb(70, 70, 70);
+}
+
+#section-about hr{
+margin-top:0;
+}
+
+#section-about img {
+    margin: 0;
+    
+}
+
+
+#section-about {
+margin: 0;
+background-color: rgb(238, 235, 235);
+}
+
+#section-about span {
+    color: rgb(70, 70, 70);
+}
+#section-about p {
+    font-size: 15px;
+}
+
+#section-about small {
+   font-size: 12px;
+}
+
+#section-info hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.178);
+    
+}
+
+
+#section-info {
+    background-color: rgb(40, 40, 40);
+}
+
+#section-info p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: rgb(231, 227, 227);
+} 
+ footer {
+     background-color: rgb(29, 29, 29);
+ }
+
+ @media (max-width: 992px) {
+     #section-about img {
+         width: 100%;
+         padding-top: 15px;
+         padding-bottom: 15px;
+         
+     }
+     #section-about p {
+         font-size: 18px;
+     }
+     #section-about small {
+        font-size: 14px;
+    }
+     #section-about span {
+         font-size: 18px;
+     }
+     #intro-section p {
+         font-size: 19px;
+     }
+     #intro-section span {
+        font-size: 14px;
+     }
+     #section-info h6 {
+         font-size: 17px;
+     }
+     #section-info p {
+        font-size: 15px ;
+    }
+    #section-info span {
+        font-size: 15px;
+    }
+    footer small{
+      font-size: 15px;
+    }
+    header small {
+        margin-left: 30px;
+    }
+    
+ }
+
+ @media (max-width: 768px) {
+
+    #section-info p {
+        font-size: 18px ;
+    }
+    #section-info h6 {
+        font-size: 21px;
+    }
+    #section-info span {
+        font-size: 17px;
+    }
+    #intro-section p {
+        font-size: 22px;
+    }
+    #intro-section span {
+        font-size: 19px;
+    }
+    #section-about span {
+        font-size: 21px;
+    }
+    #section-about p {
+        font-size: 21px;
+    }
+    #section-about small {
+        font-size: 17px;
+    }
+    footer small{
+        font-size: 17px;
+      }
+    header small {
+          font-size: 18px;
+          margin-left: 30px;
+      }
+    header #icon-menu {
+        margin-bottom: 3px;
+    }
+ }
+ @media (min-width: 1200px) {
+    #intro-section p {
+        font-size: 17px;
+    }
+    #intro-section span {
+        font-size: 13px;
+    }
+    #section-about small {
+        font-size: 13px;
+    }
+    #section-about p {
+        font-size: 16px;
+    }
+    header small {
+        margin-left: 30px;
+    }
+    
+ }
+
+   #mobile-menu {
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     right: 0;
+     left: 0;
+     z-index: 2;
+     background-color: rgba(70, 70, 70, 0.644);
+     display: none;
+     
+ }
+ #mobile-menu .mobile-menu-icon {
+
+    color: white;
+    font-size: 28px;
+    
+ }
+ #mobile-menu #col-menu {
+    background-color: rgba(41, 168, 126, 0.685);
+    border-radius: 50px;
+    padding: 20px;
+ }
+ #mobile-menu #close-menu{
+     width: 30px;
+     margin-left:300px ;
+     position: absolute;
+     color: white;
+     
+     
+
+ }
+ #mobile-menu #close-menu img:hover {
+     background-color: rgba(255, 255, 255, 0.623);
+ }
+
+
+#map-section #map {
+    height: 400px;
+}
